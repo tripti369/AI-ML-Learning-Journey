@@ -1,0 +1,17 @@
+# Reflection Activity
+
+### 1. Why can't a model learn in just one attempt?
+
+A model cannot learn everything in one attempt because its first prediction is usually not correct. It needs multiple tries to understand the pattern in the data and improve its predictions.
+
+### 2. Why is reducing error important?
+
+Reducing error is important because lower error means better predictions. A model with less error is more reliable and performs better on new data.
+
+### 3. What could happen if we adjust the model too aggressively?
+
+If we adjust the model too aggressively, it may skip the best solution and make learning unstable. Instead of improving, the model may start making larger mistakes.
+
+### 4. Why do we repeat the learning process multiple times?
+
+The learning process is repeated multiple times so that the model can gradually reduce its errors and improve its performance. Each repetition helps the model learn a little better than before.
