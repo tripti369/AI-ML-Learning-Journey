@@ -1,0 +1,61 @@
+# Spam Classification Case Study
+
+## Problem Statement
+
+A neural network is designed to classify emails as Spam or Not Spam.
+
+---
+
+## What is the Input?
+
+The input is the email content.
+
+Example:
+
+"Congratulations! You have won a free smartphone."
+
+---
+
+## What is the Prediction?
+
+The neural network analyzes the email and predicts one of the following:
+
+* Spam
+* Not Spam
+
+---
+
+## What Happens if the Prediction is Wrong?
+
+If the prediction does not match the actual result, the loss function calculates the error. A larger error indicates a less accurate prediction.
+
+---
+
+## How Does Backpropagation Help?
+
+Backpropagation sends the error backward through the network and calculates how much each weight contributed to that error. It then computes gradients that will be used to update the weights.
+
+---
+
+## Why Are Weights Updated?
+
+Weights are updated to reduce future prediction errors. By adjusting the weights and biases, the model gradually learns the patterns that distinguish spam emails from legitimate emails.
+
+---
+
+## Learning Process
+
+Input Email
+→ Forward Propagation
+→ Prediction
+→ Loss Calculation
+→ Backpropagation
+→ Gradient Descent
+→ Update Weights and Biases
+→ Improved Prediction
+
+---
+
+## Conclusion
+
+Backpropagation enables the neural network to learn from its mistakes. By continuously updating weights and biases, the model becomes more accurate at identifying spam emails over time.
