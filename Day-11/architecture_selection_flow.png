@@ -1,0 +1,19 @@
+                Problem
+                   │
+                   ▼
+          Identify Data Type
+                   │
+     ┌─────────────┼─────────────┐
+     │             │             │
+     ▼             ▼             ▼
+  Image        Sequential     Long Context
+     │             │             │
+     ▼             ▼             ▼
+    CNN        RNN / LSTM    Transformer
+           \        |        /
+            \       |       /
+             ▼      ▼      ▼
+              Train Model
+                   │
+                   ▼
+               Prediction
