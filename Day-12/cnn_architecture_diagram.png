@@ -1,0 +1,22 @@
+Input Image
+      │
+      ▼
+Convolution Layer
+      │
+      ▼
+ReLU Activation
+      │
+      ▼
+Pooling Layer
+      │
+      ▼
+Repeat Feature Extraction
+      │
+      ▼
+Flatten
+      │
+      ▼
+Fully Connected Layer
+      │
+      ▼
+Prediction
